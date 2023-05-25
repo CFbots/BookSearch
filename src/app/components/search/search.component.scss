@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 3rem;
+}
+.seach-area{
+    display: flex;
+    position: relative;
+}
+.seach-area mat-spinner{
+    margin: -2px .5rem;
+}
+.container input{
+    border-radius: .2rem;
+    border: 2px solid blue;
+    height: 2rem;
+    width: 20rem;
+    font-size: 1.5rem;
+}
+
+.container button{
+    border: none;
+    border-radius: .2rem;
+    background-color: rgb(8, 117, 117);
+    color: white;
+}
+
+.no-result{
+    margin: 0 5rem;
+}

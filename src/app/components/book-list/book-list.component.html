@@ -1,0 +1,10 @@
+<div>
+  <div class="book-item" appHoverBookItem *ngFor="let book of books" (click)="addToWishList(book.bookname, book.id)">
+    <img [src]="book.bookpickture" alt="" />
+    <div class="item-info">
+      <p>{{ book.bookname }}</p>
+      <p>{{ book.publisher }}</p>
+      <p>{{ book.publishdate }}</p>
+    </div>
+  </div>
+</div>

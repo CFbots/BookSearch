@@ -1,0 +1,9 @@
+<div class="container">
+    <ul>
+        <div *ngFor="let wishItem of wishlists$ | async" class="wish-item">
+            <li class="items">{{wishItem.bookname}}</li>
+            <button (click)="deleteWishItem(wishItem)">X</button>
+        </div>
+    </ul>
+</div>
+

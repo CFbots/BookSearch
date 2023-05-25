@@ -1,0 +1,15 @@
+.container{
+    margin: 0 10rem;;
+}
+
+.wish-item{
+    margin: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wish-item button{
+    border: none;
+    color: red;
+    height: 1rem;
+}
